@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofiya Kittur — Robotics & Automation Engineer</title>
+<meta name="description" content="Sofiya Kittur — final-year Automation & Robotics Engineering student. Computer vision, embedded systems, and applied robotics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ LOADING SCREEN ============ -->
+<div class="loader" id="loader">
+  <svg viewBox="0 0 400 470" xmlns="http://www.w3.org/2000/svg" class="arm-svg" aria-hidden="true">
+  <g id="armGroup">
+    <g id="bubbleGroup">
+      <rect x="198" y="14" width="176" height="70" rx="22" fill="#FFC72C"/>
+      <path d="M222 84 L212 110 L246 86 Z" fill="#FFC72C"/>
+      <text x="286" y="60" text-anchor="middle" class="bubble-text">hhieee!</text>
+    </g>
+
+    <rect x="138" y="424" width="124" height="26" rx="8" fill="#1c4a86"/>
+    <rect x="152" y="400" width="96" height="26" rx="7" fill="#2f6bb5"/>
+    <rect x="164" y="356" width="72" height="46" rx="6" fill="#0d2b57"/>
+    <rect x="158" y="346" width="84" height="14" rx="6" fill="#FFC72C"/>
+
+    <polygon points="180,350 224,350 210,206 172,210" fill="#2f6bb5"/>
+    <polygon points="204,350 224,350 210,206 198,208" fill="#1c4a86"/>
+    <circle cx="191" cy="206" r="27" fill="#2f6bb5" stroke="#FFC72C" stroke-width="3"/>
+    <circle cx="191" cy="206" r="11" fill="#0d2b57"/>
+
+    <g id="headGroup">
+      <polygon points="174,204 208,200 196,122 162,128" fill="#3d81d4"/>
+      <polygon points="192,201 208,200 196,122 184,124" fill="#2f6bb5"/>
+      <circle cx="179" cy="122" r="21" fill="#2f6bb5" stroke="#FFC72C" stroke-width="3"/>
+
+      <rect x="150" y="96" width="34" height="34" rx="10" fill="#1c4a86"/>
+      <rect x="96" y="82" width="118" height="76" rx="14" fill="#0d2b57" stroke="#FFC72C" stroke-width="4"/>
+      <rect x="130" y="108" width="14" height="14" rx="3" fill="#F5F3EC"/>
+      <rect x="166" y="108" width="14" height="14" rx="3" fill="#F5F3EC"/>
+      <path d="M128 132 q27 24 54 0" stroke="#F5F3EC" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+      <rect x="140" y="156" width="30" height="20" rx="5" fill="#2f6bb5"/>
+      <path d="M143 176 L128 206" stroke="#1c4a86" stroke-width="6" stroke-linecap="round"/>
+      <path d="M167 176 L182 206" stroke="#1c4a86" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
+  <p class="loader-caption">booting up…</p>
+</div>
+
+<!-- ============ NAV ============ -->
+<nav class="glass-nav" id="nav">
+  <a href="#hero" class="nav-logo">SK</a>
+  <a href="#ten4teen">Ten4teen</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#learnt">Learnt</a>
+</nav>
+<a href="#contact" class="nav-cta-float">GET IN TOUCH</a>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-text">
+    <p class="hi">hii! i'm</p>
+    <h1>Sofiya<br>Kittur</h1>
+    <span class="badge">ROBOTICS ENGINEER</span>
+    <p class="hero-line">i teach cameras to count things on conveyor belts, build locks that yell at bike thieves, and treat my sleep schedule as an optional feature.</p>
+    <div class="hero-meta">
+      <span class="chip">📍 Hubli, India</span>
+      <span class="chip">🎓 B.Tech '27, KLE Tech</span>
+      <span class="chip">🤖 open to internships</span>
+    </div>
+    <div class="hero-actions">
+      <a href="Sofiya_Kittur_Resume.pdf" class="btn btn-yellow" target="_blank" rel="noopener">Grab my resume</a>
+      <a href="#projects" class="btn btn-outline">See my work</a>
+    </div>
+  </div>
+
+  <div class="hero-scene">
+    <svg viewBox="150 -95 620 640" xmlns="http://www.w3.org/2000/svg" class="desk-svg" role="img" aria-label="Isometric illustration of Sofiya at her desk with two monitors, a notice board, a floating shelf, a badminton racket and a plant"><defs>
+<linearGradient id="rugA" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#FFC72C"/><stop offset="100%" stop-color="#E09B15"/></linearGradient>
+<linearGradient id="rugB" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#FFD75E"/><stop offset="100%" stop-color="#F0B32A"/></linearGradient>
+<linearGradient id="deskTop" x1="0" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#FFFDF7"/><stop offset="100%" stop-color="#EAE2D4"/></linearGradient>
+<linearGradient id="shirt" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0%" stop-color="#FFD75E"/><stop offset="100%" stop-color="#E0AE1F"/></linearGradient>
+<radialGradient id="hair" cx="0.35" cy="0.28" r="0.85"><stop offset="0%" stop-color="#5A3A25"/><stop offset="100%" stop-color="#33200F"/></radialGradient>
+<radialGradient id="hairLight" cx="0.35" cy="0.25" r="0.8"><stop offset="0%" stop-color="#6B4830"/><stop offset="100%" stop-color="#3E2715"/></radialGradient>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+</defs><ellipse cx="455" cy="440" rx="270" ry="95" fill="#04102a" opacity=".4" filter="url(#soft)"/><polygon points="440.0,168.6 742.9,343.5 480.0,495.3 177.1,320.4" fill="url(#rugA)"/>
+<polygon points="440.0,204.9 680.1,343.5 480.0,459.0 239.9,320.4" fill="url(#rugB)"/>
+<polygon points="440.0,241.2 617.2,343.5 480.0,422.7 302.8,320.4" fill="#FFE08A" opacity=".45"/>
+<polygon points="428.6,145.5 440.0,152.1 440.0,234.6 428.6,228.0" fill="#A47B39"/><polygon points="451.4,145.5 440.0,152.1 440.0,234.6 451.4,228.0" fill="#C0954F"/><polygon points="440.0,138.9 451.4,145.5 440.0,152.1 428.6,145.5" fill="#EBCB8B"/>
+<polygon points="625.8,259.4 637.2,266.0 637.2,348.5 625.8,341.9" fill="#A47B39"/><polygon points="648.6,259.4 637.2,266.0 637.2,348.5 648.6,341.9" fill="#C0954F"/><polygon points="637.2,252.8 648.6,259.4 637.2,266.0 625.8,259.4" fill="#EBCB8B"/>
+<polygon points="345.7,193.4 357.1,200.0 357.1,282.5 345.7,275.9" fill="#A47B39"/><polygon points="368.6,193.4 357.1,200.0 357.1,282.5 368.6,275.9" fill="#C0954F"/><polygon points="357.1,186.8 368.6,193.4 357.1,200.0 345.7,193.4" fill="#EBCB8B"/>
+<polygon points="542.9,307.2 554.3,313.8 554.3,396.3 542.9,389.7" fill="#A47B39"/><polygon points="565.7,307.2 554.3,313.8 554.3,396.3 565.7,389.7" fill="#C0954F"/><polygon points="554.3,300.6 565.7,307.2 554.3,313.8 542.9,307.2" fill="#EBCB8B"/>
+<polygon points="328.5,177.5 560.0,311.2 560.0,323.7 328.5,190.1" fill="#C3B7A6"/><polygon points="671.5,246.8 560.0,311.2 560.0,323.7 671.5,259.4" fill="#DED4C4"/><polygon points="440.0,113.2 671.5,246.8 560.0,311.2 328.5,177.5" fill="url(#deskTop)"/>
+<polygon points="471.4,152.1 482.9,158.7 482.9,172.6 471.4,166.0" fill="#1C2438"/><polygon points="494.3,152.1 482.9,158.7 482.9,172.6 494.3,166.0" fill="#25304A"/><polygon points="482.9,145.5 494.3,152.1 482.9,158.7 471.4,152.1" fill="#3A4A68"/><polygon points="454.3,153.8 494.3,176.9 494.3,182.5 454.3,159.4" fill="#1C2438"/><polygon points="511.4,167.0 494.3,176.9 494.3,182.5 511.4,172.6" fill="#25304A"/><polygon points="471.4,143.9 511.4,167.0 494.3,176.9 454.3,153.8" fill="#3A4A68"/><polygon points="449.1,64.3 520.6,105.6 520.6,171.6 449.1,130.3" fill="#1E2942"/><polygon points="527.2,101.8 520.6,105.6 520.6,171.6 527.2,167.8" fill="#2B3856"/><polygon points="455.7,60.5 527.2,101.8 520.6,105.6 449.1,64.3" fill="#46577A"/><polygon points="459.4,67.0 524.0,104.2 524.0,161.0 459.4,123.7" fill="#0B1A31"/>
+<polygon points="560.0,203.2 571.5,209.9 571.5,223.7 560.0,217.1" fill="#1C2438"/><polygon points="582.9,203.2 571.5,209.9 571.5,223.7 582.9,217.1" fill="#25304A"/><polygon points="571.5,196.6 582.9,203.2 571.5,209.9 560.0,203.2" fill="#3A4A68"/><polygon points="542.9,204.9 582.9,228.0 582.9,233.6 542.9,210.5" fill="#1C2438"/><polygon points="600.0,218.1 582.9,228.0 582.9,233.6 600.0,223.7" fill="#25304A"/><polygon points="560.0,195.0 600.0,218.1 582.9,228.0 542.9,204.9" fill="#3A4A68"/><polygon points="537.7,115.5 609.2,156.7 609.2,222.7 537.7,181.5" fill="#1E2942"/><polygon points="615.8,152.9 609.2,156.7 609.2,222.7 615.8,218.9" fill="#2B3856"/><polygon points="544.3,111.7 615.8,152.9 609.2,156.7 537.7,115.5" fill="#46577A"/><polygon points="548.0,118.1 612.6,155.4 612.6,212.2 548.0,174.9" fill="#0B1A31"/>
+<polygon points="462.6,73.1 476.9,81.3 476.9,83.6 462.6,75.4" fill="#FFC72C" opacity=".95"/>
+<polygon points="479.2,82.6 499.2,94.2 499.2,96.5 479.2,84.9" fill="#5FA8E8" opacity=".95"/>
+<polygon points="466.3,82.5 489.2,95.7 489.2,98.0 466.3,84.8" fill="#8FD0C4" opacity=".95"/>
+<polygon points="466.3,89.7 479.2,97.2 479.2,99.5 466.3,92.0" fill="#F5F3EC" opacity=".95"/>
+<polygon points="481.4,98.5 492.3,104.7 492.3,107.1 481.4,100.8" fill="#FFC72C" opacity=".95"/>
+<polygon points="470.0,99.1 497.2,114.8 497.2,117.1 470.0,101.4" fill="#5FA8E8" opacity=".95"/>
+<polygon points="466.3,104.3 484.0,114.5 484.0,116.8 466.3,106.6" fill="#8FD0C4" opacity=".95"/>
+<polygon points="462.6,109.4 474.6,116.3 474.6,118.6 462.6,111.7" fill="#F5F3EC" opacity=".95"/>
+<polygon points="476.9,117.6 492.6,126.7 492.6,129.0 476.9,119.9" fill="#FFC72C" opacity=".95"/>
+<polygon points="466.3,118.8 486.9,130.6 486.9,133.0 466.3,121.1" fill="#5FA8E8" opacity=".95"/>
+<polygon points="552.0,163.3 609.2,196.3 609.2,199.6 552.0,166.6" fill="#1C4A86"/>
+<polygon points="558.0,143.4 573.7,152.4 573.7,172.9 558.0,163.8" fill="none" stroke="#FFC72C" stroke-width="2.5"/>
+<polygon points="558.0,138.1 569.0,144.4 569.0,148.4 558.0,142.0" fill="#FFC72C"/>
+<polygon points="583.8,155.9 600.9,165.8 600.9,186.3 583.8,176.4" fill="none" stroke="#8FD0C4" stroke-width="2.5"/>
+<polygon points="583.8,150.6 595.8,157.5 595.8,161.5 583.8,154.6" fill="#8FD0C4"/>
+<polygon points="552.0,123.7 566.3,132.0 566.3,134.3 552.0,126.0" fill="#F5F3EC" opacity=".45"/>
+<polygon points="490.0,190.2 501.4,196.8 501.4,214.6 490.0,208.0" fill="#C89716"/><polygon points="512.9,190.2 501.4,196.8 501.4,214.6 512.9,208.0" fill="#E0AE1F"/><polygon points="501.4,183.6 512.9,190.2 501.4,196.8 490.0,190.2" fill="#FFD75E"/>
+<polygon points="411.4,127.3 421.4,133.1 421.4,153.6 411.4,147.8" fill="#4A8C7A"/><polygon points="431.4,127.4 421.4,133.1 421.4,153.6 431.4,147.8" fill="#5FA894"/><polygon points="421.4,121.6 431.4,127.4 421.4,133.1 411.4,127.3" fill="#8FD0C4"/>
+<polygon points="434.3,208.9 500.0,246.8 500.0,250.1 434.3,212.2" fill="#BDB3A3"/><polygon points="517.2,236.9 500.0,246.8 500.0,250.1 517.2,240.2" fill="#D3CBBD"/><polygon points="451.4,199.0 517.2,236.9 500.0,246.8 434.3,208.9" fill="#EFEAE0"/>
+<polygon points="512.9,249.3 522.9,255.1 522.9,258.4 512.9,252.6" fill="#BDB3A3"/><polygon points="531.5,250.1 522.9,255.1 522.9,258.4 531.5,253.4" fill="#D3CBBD"/><polygon points="521.4,244.3 531.5,250.1 522.9,255.1 512.9,249.3" fill="#EFEAE0"/>
+<polygon points="555.7,239.4 568.6,246.8 568.6,261.7 555.7,254.2" fill="#2E639A"/><polygon points="581.5,239.4 568.6,246.8 568.6,261.7 581.5,254.2" fill="#3D7FBC"/><polygon points="568.6,232.0 581.5,239.4 568.6,246.8 555.7,239.4" fill="#5FA8E8"/>
+<polygon points="554.3,264.3 565.7,270.9 565.7,281.5 554.3,274.9" fill="#C08F14"/><polygon points="577.2,264.3 565.7,270.9 565.7,281.5 577.2,274.9" fill="#E0AE1F"/><polygon points="565.7,257.7 577.2,264.3 565.7,270.9 554.3,264.3" fill="#FFC72C"/>
+<polygon points="382.8,305.5 391.4,310.5 391.4,360.0 382.8,355.0" fill="#767F90"/><polygon points="400.0,305.5 391.4,310.5 391.4,360.0 400.0,355.0" fill="#8D97A8"/><polygon points="391.4,300.6 400.0,305.5 391.4,310.5 382.8,305.5" fill="#B9C3D4"/>
+<polygon points="417.1,325.3 425.7,330.3 425.7,379.8 417.1,374.8" fill="#767F90"/><polygon points="434.3,325.3 425.7,330.3 425.7,379.8 434.3,374.8" fill="#8D97A8"/><polygon points="425.7,320.4 434.3,325.3 425.7,330.3 417.1,325.3" fill="#B9C3D4"/>
+<polygon points="374.3,297.3 425.7,327.0 425.7,335.2 374.3,305.5" fill="#BEB6A8"/><polygon points="458.6,308.0 425.7,327.0 425.7,335.2 458.6,316.3" fill="#D6CFC2"/><polygon points="407.1,278.3 458.6,308.0 425.7,327.0 374.3,297.3" fill="#F3EFE6"/>
+<ellipse cx="424.3" cy="255.2" rx="49" ry="45" fill="url(#shirt)"/>
+<path d="M387.3,246.2 Q415.4,236.4 431.4,226.4" stroke="url(#shirt)" stroke-width="28" fill="none" stroke-linecap="round"/>
+<path d="M461.3,246.2 Q490.3,261.1 474.3,251.1" stroke="url(#shirt)" stroke-width="28" fill="none" stroke-linecap="round"/>
+<circle cx="431.4" cy="226.4" r="12" fill="#E8B48C"/>
+<circle cx="474.3" cy="251.1" r="12" fill="#E8B48C"/>
+<rect x="417.1" y="208.6" width="20" height="26" rx="11" fill="#DCA87F"/>
+<ellipse cx="427.1" cy="188.6" rx="36" ry="38" fill="url(#hair)"/>
+<ellipse cx="427.1" cy="195.6" rx="30" ry="31" fill="url(#hairLight)"/>
+<circle cx="427.1" cy="152.6" r="19" fill="url(#hair)"/>
+<ellipse cx="427.1" cy="168.6" rx="12" ry="5" fill="#FFC72C"/>
+<path d="M398.1,197.6 q-8,28 3,46" stroke="url(#hair)" stroke-width="18" fill="none" stroke-linecap="round"/>
+<path d="M456.1,197.6 q8,28 -3,46" stroke="url(#hair)" stroke-width="18" fill="none" stroke-linecap="round"/>
+<polygon points="377.1,231.3 425.7,259.4 425.7,325.4 377.1,297.3" fill="#C2BAAC"/><polygon points="432.3,255.6 425.7,259.4 425.7,325.4 432.3,321.6" fill="#DAD3C6"/><polygon points="383.7,227.5 432.3,255.6 425.7,259.4 377.1,231.3" fill="#F7F4EC"/>
+<polygon points="537.7,-59.4 626.3,-8.3 626.3,70.9 537.7,19.8" fill="#8E6738"/><polygon points="632.9,-12.1 626.3,-8.3 626.3,70.9 632.9,67.1" fill="#A87C48"/><polygon points="544.3,-63.2 632.9,-12.1 626.3,-8.3 537.7,-59.4" fill="#C89A64"/>
+<polygon points="541.7,-51.8 621.8,-5.6 621.8,63.7 541.7,17.5" fill="#B8895A"/>
+<polygon points="548.6,-37.7 574.3,-22.8 574.3,10.2 548.6,-4.6" fill="#F5F3EC"/>
+<polygon points="581.5,-8.8 607.2,6.1 607.2,37.4 581.5,22.6" fill="#FFC72C"/>
+<circle cx="561.2" cy="-31.7" r="7" fill="#E2574C"/>
+<circle cx="559.2" cy="-33.7" r="2.5" fill="#F58C84"/>
+<circle cx="594.0" cy="-2.8" r="7" fill="#E2574C"/>
+<circle cx="592.0" cy="-4.8" r="2.5" fill="#F58C84"/>
+<polygon points="457.1,-23.5 508.6,6.2 508.6,13.5 457.1,-16.2" fill="#A47B39"/><polygon points="520.0,-0.4 508.6,6.2 508.6,13.5 520.0,6.9" fill="#C0954F"/><polygon points="468.6,-30.1 520.0,-0.4 508.6,6.2 457.1,-23.5" fill="#EBCB8B"/>
+<polygon points="465.7,-50.8 471.4,-47.5 471.4,-16.9 465.7,-20.2" fill="#5FA8E8"/><polygon points="480.0,-52.5 471.4,-47.5 471.4,-16.9 480.0,-21.8" fill="#5FA8E8"/><polygon points="474.3,-55.8 480.0,-52.5 471.4,-47.5 465.7,-50.8" fill="#5FA8E8"/>
+<polygon points="472.9,-46.7 478.6,-43.4 478.6,-12.7 472.9,-16.0" fill="#8FD0C4"/><polygon points="487.2,-48.4 478.6,-43.4 478.6,-12.7 487.2,-17.7" fill="#8FD0C4"/><polygon points="481.4,-51.7 487.2,-48.4 478.6,-43.4 472.9,-46.7" fill="#8FD0C4"/>
+<polygon points="480.0,-42.6 485.7,-39.3 485.7,-8.6 480.0,-11.9" fill="#FFC72C"/><polygon points="494.3,-44.2 485.7,-39.3 485.7,-8.6 494.3,-13.6" fill="#FFC72C"/><polygon points="488.6,-47.5 494.3,-44.2 485.7,-39.3 480.0,-42.6" fill="#FFC72C"/>
+<polygon points="492.9,-18.7 504.3,-12.1 504.3,2.1 492.9,-4.5" fill="#BEB6A8"/><polygon points="512.9,-17.0 504.3,-12.1 504.3,2.1 512.9,-2.8" fill="#D6CFC2"/><polygon points="501.4,-23.6 512.9,-17.0 504.3,-12.1 492.9,-18.7" fill="#F3EFE6"/>
+<path d="M502.9,-21.2 q-16,-22 -3,-34 q10,20 3,34z" fill="#4FAE8C"/>
+<path d="M502.9,-21.2 q16,-20 4,-32 q-12,18 -4,32z" fill="#5CC39C"/>
+<g transform="rotate(20 677.2 58.0)"><rect x="670.2" y="96.0" width="14" height="74" rx="7" fill="#2B3856"/><rect x="672.2" y="136.0" width="10" height="34" rx="5" fill="#FFC72C"/><ellipse cx="677.2" cy="58.0" rx="38" ry="50" fill="none" stroke="#46577A" stroke-width="10"/><ellipse cx="677.2" cy="58.0" rx="33" ry="45" fill="#0B1A31" opacity=".4"/><g stroke="#F5F3EC" stroke-width="1.3" opacity=".5"><line x1="655.2" y1="20.0" x2="655.2" y2="96.0"/><line x1="666.2" y1="15.0" x2="666.2" y2="101.0"/><line x1="677.2" y1="13.0" x2="677.2" y2="103.0"/><line x1="688.2" y1="15.0" x2="688.2" y2="101.0"/><line x1="699.2" y1="20.0" x2="699.2" y2="96.0"/><line x1="642.2" y1="34.0" x2="712.2" y2="34.0"/><line x1="640.2" y1="50.0" x2="714.2" y2="50.0"/><line x1="640.2" y1="66.0" x2="714.2" y2="66.0"/><line x1="642.2" y1="82.0" x2="712.2" y2="82.0"/></g></g>
+<polygon points="491.4,416.1 517.2,430.9 517.2,467.2 491.4,452.4" fill="#BEB6A8"/><polygon points="542.9,416.1 517.2,430.9 517.2,467.2 542.9,452.4" fill="#D6CFC2"/><polygon points="517.2,401.2 542.9,416.1 517.2,430.9 491.4,416.1" fill="#F3EFE6"/>
+<polygon points="494.3,411.1 517.2,424.3 517.2,429.3 494.3,416.1" fill="#8E6738"/><polygon points="540.0,411.2 517.2,424.3 517.2,429.3 540.0,416.1" fill="#8E6738"/><polygon points="517.2,398.0 540.0,411.2 517.2,424.3 494.3,411.1" fill="#8E6738"/>
+<path d="M517.2,411.2 q-30,-40 -10,-72 q26,36 10,72z" fill="#3F8F74"/>
+<path d="M517.2,411.2 q32,-44 14,-78 q-28,40 -14,78z" fill="#4FAE8C"/>
+<path d="M517.2,411.2 q-4,-52 16,-70 q-4,44 -16,70z" fill="#5CC39C"/>
+</svg>
+  </div>
+</section>
+
+<!-- ============ SECTION BOXES ============ -->
+<section class="boxes-wrap">
+  <div class="boxes">
+    <a href="#ten4teen" class="box">
+      <span class="box-emoji">🚀</span>
+      <h3>Ten4teen</h3>
+      <p>The startup I co-founded for students like us.</p>
+      <span class="box-arrow">→</span>
+    </a>
+    <a href="#projects" class="box">
+      <span class="box-emoji">🛠️</span>
+      <h3>My projects</h3>
+      <p>Vision systems, smart locks, control loops.</p>
+      <span class="box-arrow">→</span>
+    </a>
+    <a href="#experience" class="box">
+      <span class="box-emoji">💼</span>
+      <h3>My experience</h3>
+      <p>Where I've actually shown up and built things.</p>
+      <span class="box-arrow">→</span>
+    </a>
+    <a href="#learnt" class="box">
+      <span class="box-emoji">🧠</span>
+      <h3>Things I've learnt the hard way</h3>
+      <p>Mistakes, but make them educational.</p>
+      <span class="box-arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ TEN4TEEN ============ -->
+<section class="section section-alt" id="ten4teen">
+  <p class="kicker">01 — WHAT I'M BUILDING</p>
+  <h2>Ten4teen</h2>
+  <div class="t4t">
+    <div class="t4t-copy">
+      <p>I co-founded Ten4teen with <strong>Vrushabraj K</strong> — a platform connecting startups with engineering students for real project work. It went live publicly on <strong>July 1, 2026</strong>.</p>
+      <p>We built it because we kept running into the problem ourselves. Being an engineering student doesn't leave you much room for a full internship, and freelancing sites are so crowded with working professionals that a student barely gets seen. There was a gap between "I can actually do this" and anywhere to prove it — so we made one.</p>
+      <p>I own product, outreach and partnerships end-to-end, which mostly means learning fast and being the person who fixes it when things break.</p>
+    </div>
+    <div class="t4t-stats">
+      <div class="stat"><span class="stat-no">25+</span><span class="stat-label">startup partnerships</span></div>
+      <div class="stat"><span class="stat-no">100+</span><span class="stat-label">student waitlist pre-launch</span></div>
+      <div class="stat"><span class="stat-no">2</span><span class="stat-label">very tired founders</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <p class="kicker">02 — PROJECTS</p>
+  <h2>Stuff I've actually built</h2>
+  <div class="card-grid">
+    <article class="card card-wide">
+      <span class="tag">FLAGSHIP · COMPUTER VISION</span>
+      <h3>Vision-Based Multi-SKU Production Monitoring</h3>
+      <p class="card-org">Aequs Ltd. · 2026</p>
+      <p>A single-camera pipeline — detect → classify → track → count → monitor — that turns products moving on a conveyor into real-time, SKU-wise production data.</p>
+      <ul class="card-points">
+        <li>Custom 12,749-image, 7-SKU dataset · <strong>99.49% mAP@50</strong></li>
+        <li>ByteTrack for tracking, virtual line-crossing for counting</li>
+        <li>20 stakeholder interviews across 4 segments to validate the use case</li>
+        <li>Benchmarked against Keyence, Cognex &amp; SICK; authored a TRL 4→6 roadmap</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="tag">ELECTROMECHANICAL</span>
+      <h3>Patent-Pending Smart Lock</h3>
+      <p class="card-org">College Project · Selected for E CO Op</p>
+      <p>Disc-brake locking mechanism, GPS tracking, Bluetooth app control and an alarm that goes off if someone disturbs the bike. Concept to working prototype.</p>
+    </article>
+    <article class="card">
+      <span class="tag">CONTROL SYSTEMS</span>
+      <h3>Automated Water Level Control</h3>
+      <p class="card-org">Hosmani Neutraceuticals</p>
+      <p>Valve actuation for automated water-level regulation on algae farm ponds, with salinity and temperature sensors and an HMI for operators.</p>
+    </article>
+    <article class="card">
+      <span class="tag">EMBEDDED / IOT</span>
+      <h3>Temperature Monitoring System</h3>
+      <p class="card-org">Academic Project</p>
+      <p>Microcontroller-based monitoring with cloud storage for real-time and historical analysis.</p>
+    </article>
+    <article class="card">
+      <span class="tag">FREELANCE</span>
+      <h3>Freelance Engineering Projects</h3>
+      <p class="card-org">Electronics · 3D Modelling</p>
+      <p>Freelanced on engineering projects across two areas — electronics work, and 3D modelling in SolidWorks and AutoCAD for a range of university and client builds.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <p class="kicker">03 — EXPERIENCE</p>
+  <h2>Where I've worked</h2>
+  <div class="exp-list">
+    <article class="exp">
+      <div class="exp-when">DEC 2025 — MAR 2026</div>
+      <div class="exp-body">
+        <h3>Automation &amp; Tech Lead</h3>
+        <p class="card-org">Ravtor Mobility Pvt. Ltd.</p>
+        <ul class="card-points">
+          <li>Led R&amp;D on EV bike architecture, battery systems and motor tech</li>
+          <li>Engineered a patent-pending electromechanical smart lock from concept to prototype</li>
+          <li>Designed a GPS-based tracking module for real-time vehicle location monitoring</li>
+          <li>Built a mobile app interface for IoT-based lock control — remote lock/unlock and device connectivity</li>
+        </ul>
+      </div>
+    </article>
+    <article class="exp">
+      <div class="exp-when">JUL — SEP 2025</div>
+      <div class="exp-body">
+        <h3>Intern</h3>
+        <p class="card-org">Synart Automation Pvt. Ltd.</p>
+        <ul class="card-points">
+          <li>Designed a drone PCB end-to-end — component selection through board layout</li>
+          <li>Supported testing and prototyping across the product pipeline</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+
+  <h2 class="skills-head">What I work with</h2>
+  <div class="skills">
+    <div class="skill-group">
+      <h4>Robotics</h4>
+      <p>ROS2 · Gazebo · Control Systems · Robot Mechanics</p>
+    </div>
+    <div class="skill-group">
+      <h4>Computer Vision</h4>
+      <p>Detection · Tracking · ByteTrack · Custom dataset training</p>
+    </div>
+    <div class="skill-group">
+      <h4>Code</h4>
+      <p>Python · C++ · HTML</p>
+    </div>
+    <div class="skill-group">
+      <h4>Embedded</h4>
+      <p>Arduino · ESP32 · Raspberry Pi · Sensor integration</p>
+    </div>
+    <div class="skill-group">
+      <h4>CAD</h4>
+      <p>SolidWorks · AutoCAD</p>
+    </div>
+  </div>
+  <p class="honest-note">Being straight with you: my ROS2 and Gazebo come from coursework and projects, not production deployment yet. I'm actively closing that gap — it just felt weird to pretend otherwise.</p>
+</section>
+
+<!-- ============ LEARNT ============ -->
+<section class="section" id="learnt">
+  <p class="kicker">04 — FIELD NOTES</p>
+  <h2>Things I've learnt the hard way</h2>
+  <div class="notes">
+    <article class="note n1">
+      <span class="note-no">01</span>
+      <p>My first guess at "the problem" was wrong. Twenty stakeholder interviews later, the Aequs project was a completely different — and actually useful — thing. Now I talk to people before I write code.</p>
+    </article>
+    <article class="note n2">
+      <span class="note-no">02</span>
+      <p>Saying "I don't know that yet" out loud is faster than pretending. Nobody's ever been impressed by a bluff that unravels in the second interview.</p>
+    </article>
+    <article class="note n3">
+      <span class="note-no">03</span>
+      <p>A prototype that works badly teaches you more in an afternoon than a spec sheet does in a week. Build the ugly version first.</p>
+    </article>
+    <article class="note n4">
+      <span class="note-no">04</span>
+      <p>Matching students to startups and tuning a control loop are the same problem wearing different clothes. Both collapse the moment you stop listening to the feedback.</p>
+    </article>
+    <article class="note n5">
+      <span class="note-no">05</span>
+      <p>Ten4teen went from idea to 25+ live partnerships faster than some of my hardware projects went from spec to prototype. Shipping beats polishing.</p>
+    </article>
+    <article class="note n6">
+      <span class="note-no">06</span>
+      <p>Sleep is not, in fact, an optional feature. I'm told. Working on it.</p>
+    </article>
+  </div>
+</section>
+
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <p class="kicker">05 — CONTACT</p>
+  <h2>Let's build something</h2>
+  <p class="contact-lead">Open to robotics &amp; automation internships. My inbox is refreshingly empty of spam, so you'll definitely get through.</p>
+  <div class="contact-grid">
+    <a href="mailto:05sofiyakit@gmail.com" class="contact-item">
+      <span class="ci-label">EMAIL</span>
+      <span class="ci-value">05sofiyakit@gmail.com</span>
+    </a>
+    <a href="tel:+919019084437" class="contact-item">
+      <span class="ci-label">PHONE</span>
+      <span class="ci-value">+91 90190 84437</span>
+    </a>
+    <a href="https://www.linkedin.com/in/sofiya-kittur" target="_blank" rel="noopener" class="contact-item">
+      <span class="ci-label">LINKEDIN</span>
+      <span class="ci-value">/in/sofiya-kittur</span>
+    </a>
+    <a href="https://github.com/Sofiyak1409" target="_blank" rel="noopener" class="contact-item">
+      <span class="ci-label">GITHUB</span>
+      <span class="ci-value">/Sofiyak1409</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>Built by Sofiya Kittur · 2026 · powered by coffee and questionable hours</p>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
